@@ -1,0 +1,7 @@
+# MacOS configuration files
+.DS_Store
+
+# Jetbrains configuration files
+.idea/
+*.xml
+*.iml
