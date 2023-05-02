@@ -1,0 +1,63 @@
+
+/**
+    justify-content properties:
+    - start;
+    - center;
+    - space-between;
+    - space-around;
+    - space-evenly;
+**/
+
+* {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+
+    /* zero out padding and margin so we can control it later */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    --border-width: 2px;
+}
+
+section#header {
+    background-color: navy;  /* TODO: use provided color instead */
+    color: white;
+
+    /* leave space for two side columns */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+section#header header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#header header h2 {
+
+}
+
+section#header header h2 a {
+    text-decoration: none;  /* remove underlines */
+    color: white;  /* must set color of links manually */
+}
+
+section#header header ul {
+    list-style-type: none;  /* no bullets */
+}
+
+section#header header ul li {
+    display: inline;  /* make links appear adjacent to each other */
+}
+
+section#header header ul li a {
+    text-decoration: none;  /* remove underlines */
+    color: white;  /* must set color of links manually */
+}
