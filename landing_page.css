@@ -50,6 +50,10 @@ section#header h2 a {
 
 section#header ul {
     list-style-type: none;  /* no bullets */
+
+    /* flexbox */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 section#header ul li {
