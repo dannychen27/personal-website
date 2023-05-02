@@ -32,32 +32,31 @@ section#header {
     padding-right: 100px;
     padding-top: 0;
     padding-bottom: 0;
-}
 
-section#header header {
+    /* flexbox */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-section#header header h2 {
+section#header h2 {
 
 }
 
-section#header header h2 a {
+section#header h2 a {
     text-decoration: none;  /* remove underlines */
     color: white;  /* must set color of links manually */
 }
 
-section#header header ul {
+section#header ul {
     list-style-type: none;  /* no bullets */
 }
 
-section#header header ul li {
+section#header ul li {
     display: inline;  /* make links appear adjacent to each other */
 }
 
-section#header header ul li a {
+section#header ul li a {
     text-decoration: none;  /* remove underlines */
     color: white;  /* must set color of links manually */
 }
