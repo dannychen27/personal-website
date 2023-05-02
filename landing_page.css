@@ -61,3 +61,64 @@ section#header header ul li a {
     text-decoration: none;  /* remove underlines */
     color: white;  /* must set color of links manually */
 }
+
+section#intro {
+    background-color: black;  /* TODO: use provided color instead */
+    color: white;
+
+    /* make two side columns */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+section#intro article {
+    display: flex;
+
+    height: 200px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+section#intro article section {
+    width: calc(50% - var(--border-width));
+}
+
+section#intro article section.section1 {
+    color: white;
+}
+
+section#intro article section.section1 h2 {
+    font-size: 2.25em;
+}
+
+section#intro article section.section1 p {
+    font-size: 1em;
+}
+
+section#intro article section.section1 button {
+    font-family: "Comic Sans MS", sans-serif;  /* must set button font manually */
+    background-color: dodgerblue;  /* TODO: use provided color instead */
+    color: white;
+
+    border-radius: 8px;
+    align-content: center;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+section#intro article section.section2 {
+
+}
+
+section#intro article section.section2 img {
+    width: calc(100% - var(--border-width));
+    height: calc(100% - var(--border-width));
+}
