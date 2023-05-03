@@ -98,7 +98,7 @@ section#intro article section {
 }
 
 section#intro article section.section1 {
-    color: white;
+    
 }
 
 section#intro article section.section1 h2 {
@@ -112,10 +112,8 @@ section#intro article section.section1 p {
 section#intro article section.section1 button {
     font-family: "Comic Sans MS", sans-serif;  /* must set button font manually */
     background-color: dodgerblue;  /* TODO: use provided color instead */
-    color: white;
-
+    color: white;  /* must set button text color manually */
     border-radius: 8px;
-    align-content: center;
 
     padding-top: 5px;
     padding-bottom: 5px;
