@@ -77,18 +77,24 @@ section#intro {
 }
 
 section#intro article {
-    display: flex;
-
     height: 200px;
 
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 0;
     padding-right: 0;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
 }
 
 section#intro article section {
     width: calc(50% - var(--border-width));
+
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
 }
 
 section#intro article section.section1 {
