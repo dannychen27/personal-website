@@ -119,12 +119,16 @@ section#intro article section.section1 button {
     font-family: "Comic Sans MS", sans-serif;  /* must set button font manually */
     background-color: dodgerblue;  /* TODO: use provided color instead */
     color: white;  /* must set button text color manually */
+    width: 25%;
     border-radius: 8px;
 
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
+
+    /* TODO: How do I control the alignment of the button?
+        e.g., left justify, center, right justify */
 }
 
 section#intro article section.section2 {
