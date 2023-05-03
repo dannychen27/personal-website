@@ -139,3 +139,15 @@ section#intro article section.section2 img {
     width: calc(100% - var(--border-width));
     height: calc(100% - var(--border-width));
 }
+
+section#quotation {
+
+}
+
+section#call-to-action {
+
+}
+
+section#footer {
+
+}
