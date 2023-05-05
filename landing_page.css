@@ -18,8 +18,8 @@ body {
     --border-width: 2px;
 }
 
-section#header {
-    background-color: navy;  /* TODO: use provided color instead */
+section#header, section#intro, section#information,
+section#quotation, section#footer {
     color: white;
 
     /* leave space for two side columns */
@@ -32,6 +32,10 @@ section#header {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+}
+
+section#header {
+    background-color: navy;  /* TODO: use provided color instead */
 
     /* flexbox */
     display: flex;
@@ -67,13 +71,6 @@ section#header ul li a {
 
 section#intro {
     background-color: black;  /* TODO: use provided color instead */
-    color: white;
-
-    /* make two side columns */
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 section#intro article {
