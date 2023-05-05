@@ -108,7 +108,7 @@ section#intro article section.section1 button {
     font-family: "Comic Sans MS", sans-serif;  /* must set button font manually */
     background-color: dodgerblue;  /* TODO: use provided color instead */
     color: white;  /* must set button text color manually */
-    width: 25%;
+    width: 125px;
     border-radius: 8px;
 
     padding-top: 5px;
