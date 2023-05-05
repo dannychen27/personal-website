@@ -13,6 +13,10 @@
     border-style: solid;
     border-color: red;
 
+    /** include an element's padding and border within its total
+    width and height calculation. **/
+    box-sizing: border-box;
+
     /* zero out padding and margin so we can control it later */
     padding: 0;
     margin: 0;
