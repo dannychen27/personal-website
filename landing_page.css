@@ -77,10 +77,8 @@ section#intro {
 }
 
 section#intro article {
-    height: 200px;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 0;
     padding-right: 0;
 
