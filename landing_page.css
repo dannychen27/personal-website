@@ -70,7 +70,7 @@ section#intro {
     background-color: black;  /* TODO: use provided color instead */
 }
 
-section#intro article {
+section#intro .intro-container {
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 0;
@@ -81,27 +81,26 @@ section#intro article {
     flex-direction: row;
 }
 
-section#intro article section {
+section#intro .intro-description-container,
+section#intro .intro-image-container {
     width: calc(50% - var(--border-width));
+}
 
+section#intro .intro-description-container {
     /* flexbox */
     display: flex;
     flex-direction: column;
 }
 
-section#intro article section.section1 {
-    
-}
-
-section#intro article section.section1 h2 {
+section#intro .intro-title {
     font-size: 48px;
 }
 
-section#intro article section.section1 p {
+section#intro .intro-description {
     font-size: 18px;
 }
 
-section#intro article section.section1 button {
+section#intro .intro-sign-up-button {
     font-family: "Comic Sans MS", sans-serif;  /* must set button font manually */
     background-color: dodgerblue;  /* TODO: use provided color instead */
     color: white;  /* must set button text color manually */
@@ -117,11 +116,11 @@ section#intro article section.section1 button {
         e.g., left justify, center, right justify */
 }
 
-section#intro article section.section2 {
+section#intro .intro-image-container {
 
 }
 
-section#intro article section.section2 img {
+section#intro .profile-picture {
     width: calc(100% - var(--border-width));
     height: calc(100% - var(--border-width));
 }
