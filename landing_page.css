@@ -216,7 +216,59 @@ section#quotation .quote-author {
 }
 
 section#call-to-action {
+    background-color: white;
+    color: black;
+}
 
+section#call-to-action .call-to-action-container {
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    /* flexbox */
+    display: flex;
+    justify-content: space-around;
+}
+
+section#call-to-action .call-to-action-prompt {
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+}
+
+section#call-to-action .call-to-action-message {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+section#call-to-action .call-to-action-task {
+
+}
+
+section#call-to-action .call-to-action-button-container {
+    /* flexbox */
+    display: flex;
+    align-items: center;
+}
+
+section#call-to-action .call-to-action-button {
+    width: 150px;
+    height: 70%;
+    font-family: "Comic Sans MS", sans-serif;  /* must set font manually */
+    font-size: 20px;
+    background-color: blue;  /* must set background color manually */
+    color: white;  /* must set font color manually */
+    border-color: white;
+    border-width: 2px;
+    border-radius: 4px;
 }
 
 section#footer {
