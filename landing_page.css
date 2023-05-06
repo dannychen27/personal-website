@@ -131,13 +131,6 @@ section#intro .profile-picture {
 
 section#information {
     background-color: green;  /* TODO: use provided color instead */
-
-    padding-top: 0;
-
-    /* flexbox */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 section#information .info-container {
