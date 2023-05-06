@@ -43,16 +43,16 @@ section#header {
     align-items: center;
 }
 
-section#header h2 {
+section#header .logo-link-container {
 
 }
 
-section#header h2 a {
+section#header .logo-link {
     text-decoration: none;  /* remove underlines */
     color: white;  /* must set color of links manually */
 }
 
-section#header ul {
+section#header .header-link-container {
     list-style-type: none;  /* no bullets */
 
     /* flexbox */
@@ -60,11 +60,8 @@ section#header ul {
     justify-content: space-evenly;
 }
 
-section#header ul li {
+section#header .header-link {
     display: inline;  /* make links appear adjacent to each other */
-}
-
-section#header ul li a {
     text-decoration: none;  /* remove underlines */
     color: white;  /* must set color of links manually */
 }
