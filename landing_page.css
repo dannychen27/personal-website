@@ -15,7 +15,6 @@
 
 body {
     font-family: "Comic Sans MS", sans-serif;
-    --border-width: 2px;
 }
 
 section#header, section#intro, section#information,
@@ -87,7 +86,7 @@ section#intro .intro-container {
 
 section#intro .intro-description-container,
 section#intro .intro-image-container {
-    width: calc(50% - var(--border-width));
+    width: 50%;
 }
 
 section#intro .intro-description-container {
@@ -125,8 +124,8 @@ section#intro .intro-image-container {
 }
 
 section#intro .profile-picture {
-    width: calc(100% - var(--border-width));
-    height: calc(100% - var(--border-width));
+    width: 100%;
+    height: 100%;
 }
 
 section#information {
@@ -155,7 +154,7 @@ section#information .image-collection {
 }
 
 section#information .multi-image-container {
-    width: calc(50% - var(--border-width));
+    width: 50%;
 
     margin-left: 0;
     margin-right: 0;
