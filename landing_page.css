@@ -272,5 +272,22 @@ section#call-to-action .call-to-action-button {
 }
 
 section#footer {
+    background-color: black;  /* TODO: use provided color instead */
+}
 
+section#footer .footer-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section#footer .copyright-message {
+    font-size: 18px;
+    color: white;
 }
