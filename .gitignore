@@ -5,3 +5,7 @@
 .idea/
 *.xml
 *.iml
+
+# Friend's example landing page information section
+index_info_section_complete.css
+index_info_section_complete.html
