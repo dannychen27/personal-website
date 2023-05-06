@@ -65,6 +65,9 @@ section#header .header-link {
     display: inline;  /* make links appear adjacent to each other */
     text-decoration: none;  /* remove underlines */
     color: white;  /* must set color of links manually */
+
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 section#intro {
