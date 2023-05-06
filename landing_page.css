@@ -44,7 +44,8 @@ section#header {
 }
 
 section#header .logo-link-container {
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 section#header .logo-link {
