@@ -268,7 +268,7 @@ section#call-to-action .call-to-action-button {
     color: white;  /* must set font color manually */
     border-color: white;
     border-width: 2px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 section#footer {
