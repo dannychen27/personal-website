@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     /* make the border visible for debugging an element's margin and padding */
     border-width: 1px;
@@ -14,7 +16,7 @@
 }
 
 body {
-    font-family: "Hero New", sans-serif;  /* must set font manually */
+    font-family: "Roboto", sans-serif;  /* must set font manually */
 }
 
 section#header, section#intro, section#information,
@@ -104,7 +106,7 @@ section#intro .intro-description {
 }
 
 section#intro .intro-sign-up-button {
-    font-family: "Hero New", sans-serif;  /* must set button font manually */
+    font-family: "Roboto", sans-serif;  /* must set button font manually */
     background-color: dodgerblue;  /* TODO: use provided color instead */
     color: white;  /* must set button text color manually */
     width: 125px;
@@ -205,14 +207,13 @@ section#quotation .quote-container {
 section#quotation .quotation {
     text-align: left;
     font: 36px light italic;
-    font-family: "Hero New", sans-serif;  /* must set font manually */
+    font-family: "Roboto Light", sans-serif;  /* must set font manually */
 }
 
 section#quotation .quote-author {
     text-align: right;
     font: 24px bold;
-    font-family: "Hero New", sans-serif;  /* must set font manually */
-
+    font-family: "Roboto", sans-serif;  /* must set font manually */
 }
 
 section#call-to-action {
@@ -262,7 +263,7 @@ section#call-to-action .call-to-action-button-container {
 section#call-to-action .call-to-action-button {
     width: 150px;
     height: 70%;
-    font-family: "Hero New", sans-serif;  /* must set font manually */
+    font-family: "Roboto", sans-serif;  /* must set font manually */
     font-size: 20px;
     background-color: blue;  /* must set background color manually */
     color: white;  /* must set font color manually */
