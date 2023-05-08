@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Hero New", sans-serif;  /* must set font manually */
 }
 
 section#header, section#intro, section#information,
@@ -104,7 +104,7 @@ section#intro .intro-description {
 }
 
 section#intro .intro-sign-up-button {
-    font-family: "Comic Sans MS", sans-serif;  /* must set button font manually */
+    font-family: "Hero New", sans-serif;  /* must set button font manually */
     background-color: dodgerblue;  /* TODO: use provided color instead */
     color: white;  /* must set button text color manually */
     width: 125px;
@@ -205,13 +205,14 @@ section#quotation .quote-container {
 section#quotation .quotation {
     text-align: left;
     font: 36px light italic;
-    font-family: "Comic Sans MS", sans-serif;  /* must set font manually */
+    font-family: "Hero New", sans-serif;  /* must set font manually */
 }
 
 section#quotation .quote-author {
     text-align: right;
     font: 24px bold;
-    font-family: "Comic Sans MS", sans-serif;  /* must set font manually */
+    font-family: "Hero New", sans-serif;  /* must set font manually */
+
 }
 
 section#call-to-action {
@@ -261,7 +262,7 @@ section#call-to-action .call-to-action-button-container {
 section#call-to-action .call-to-action-button {
     width: 150px;
     height: 70%;
-    font-family: "Comic Sans MS", sans-serif;  /* must set font manually */
+    font-family: "Hero New", sans-serif;  /* must set font manually */
     font-size: 20px;
     background-color: blue;  /* must set background color manually */
     color: white;  /* must set font color manually */
