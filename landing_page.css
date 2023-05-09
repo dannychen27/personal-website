@@ -134,6 +134,8 @@ section#intro .profile-picture {
 
 section#information {
     background-color: green;  /* TODO: use provided color instead */
+
+    padding-top: 50px;
 }
 
 section#information .info-container {
