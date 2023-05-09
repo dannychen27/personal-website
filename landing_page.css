@@ -17,6 +17,7 @@
 
 body {
     font-family: "Roboto", sans-serif;  /* must set font manually */
+    background-color: white;
 }
 
 section#header, section#intro, section#information,
