@@ -212,6 +212,8 @@ section#quotation .quotation {
     text-align: left;
     font: 36px light italic;
     font-family: "Roboto Light", sans-serif;  /* must set font manually */
+
+    margin-bottom: 20px;
 }
 
 section#quotation .quote-author {
