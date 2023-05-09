@@ -111,7 +111,7 @@ section#intro .intro-sign-up-button {
     background-color: dodgerblue;  /* TODO: use provided color instead */
     color: white;  /* must set button text color manually */
     width: 125px;
-    border-radius: 8px;
+    border-radius: 4px;
     border: none;
 
     padding-top: 5px;
