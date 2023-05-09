@@ -112,6 +112,7 @@ section#intro .intro-sign-up-button {
     color: white;  /* must set button text color manually */
     width: 125px;
     border-radius: 8px;
+    border: none;
 
     padding-top: 5px;
     padding-bottom: 5px;
