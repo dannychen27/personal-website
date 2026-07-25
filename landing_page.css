@@ -135,8 +135,8 @@ section#intro .intro-image-container {
 }
 
 section#intro .profile-picture {
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 
 section#information {
