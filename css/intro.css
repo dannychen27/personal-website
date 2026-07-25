@@ -1,5 +1,5 @@
 section#intro {
-    background-color: black;  /* TODO: use provided color instead */
+    background-color: darkblue;  /* TODO: use provided color instead */
 
     /* flexbox */
     align-items: center;
