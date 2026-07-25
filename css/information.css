@@ -16,6 +16,9 @@ section#information .info-container {
 }
 
 section#information .info-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+
     /* flexbox */
     flex: 1;
     text-align: center;
