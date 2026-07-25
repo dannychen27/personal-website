@@ -21,11 +21,11 @@ section#information .image-container {
 
     /* flexbox */
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 
 section#information .image {
-    width: 200px;
+    width: 20%;
 
     /* flexbox */
     display: flex;
