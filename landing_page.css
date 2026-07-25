@@ -74,6 +74,9 @@ section#header .header-link {
 
 section#intro {
     background-color: black;  /* TODO: use provided color instead */
+
+    /* flexbox */
+    align-items: center;
 }
 
 section#intro .intro-container {
@@ -85,11 +88,13 @@ section#intro .intro-container {
     /* flexbox */
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 section#intro .intro-description-container,
 section#intro .intro-image-container {
-    width: 50%;
+    justify-content: center;
+    width: 30%;
 }
 
 section#intro .intro-description-container {
