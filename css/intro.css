@@ -13,13 +13,22 @@ section#intro .intro-container {
 
     /* flexbox */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#intro .intro-items {
+    /* flexbox */
+    display: flex;
     justify-content: center;
 }
 
 section#intro .intro-description-container,
 section#intro .intro-image-container {
     justify-content: center;
+
+    /* flexbox */
+    flex: 1;
 }
 
 section#intro .intro-description-container {
