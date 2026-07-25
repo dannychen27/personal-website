@@ -2,9 +2,10 @@
 
 * {
     /* make the border visible for debugging an element's margin and padding */
-    border-width: 1px;
-    border-style: solid;
-    border-color: red;
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    /*border-color: red;*/
+    outline: 1px solid red;
 
     /** include an element's padding and border within its total
     width and height calculation. **/
