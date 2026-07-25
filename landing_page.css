@@ -107,14 +107,14 @@ section#intro .intro-title {
     font-size: 48px;
 
     /* flexbox */
-    flex: 1;
+    flex: 3;
 }
 
 section#intro .intro-description {
     font-size: 18px;
 
     /* flexbox */
-    flex: 1;
+    flex: 2;
 }
 
 section#intro .intro-sign-up-button {
