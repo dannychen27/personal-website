@@ -95,7 +95,6 @@ section#intro .intro-container {
 section#intro .intro-description-container,
 section#intro .intro-image-container {
     justify-content: center;
-    width: 30%;
 }
 
 section#intro .intro-description-container {
