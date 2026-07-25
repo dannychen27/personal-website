@@ -32,7 +32,7 @@ section#information .image-container {
 }
 
 section#information .image {
-    width: 20%;
+    width: 15%;
 
     /* flexbox */
     display: flex;
@@ -42,7 +42,7 @@ section#information .image {
 
 section#information .info-image {
     height: 125px;
-    width: 85%;
+    width: 100%;
 
     border-width: 3px;
     border-style: solid;
