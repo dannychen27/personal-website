@@ -2,10 +2,15 @@ section#information {
     background-color: green;  /* TODO: use provided color instead */
 
     padding-top: 50px;
+    padding-bottom: 50px;
+
+    /* flexbox */
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 section#information .info-container {
-
+    flex: 1;
 }
 
 section#information .info-title {
@@ -40,8 +45,8 @@ section#information .multi-image-container {
 }
 
 section#information .info-image {
-    height: 150px;
-    width: 200px;
+    height: auto;
+    width: 100%;
 
     border-width: 3px;
     border-style: solid;
