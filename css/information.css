@@ -41,12 +41,12 @@ section#information .image {
 }
 
 section#information .info-image {
-    height: auto;
-    width: 100%;
+    height: 125px;
+    width: 85%;
 
     border-width: 3px;
     border-style: solid;
-    border-color: blue;
+    border-color: steelblue;
     border-radius: 8px;
 }
 
