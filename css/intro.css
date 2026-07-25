@@ -71,10 +71,18 @@ section#intro .intro-sign-up-button {
 }
 
 section#intro .intro-image-container {
+    background-color: gray;
+    margin-left: 20px;
 
+    /* flexbox */
+    flex: 1;
+    display: flex;
 }
 
-section#intro .profile-picture {
-    width: 100%;
-    height: 100%;
+section#intro .image-box {
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
