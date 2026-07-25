@@ -5,15 +5,19 @@ section#information {
     padding-bottom: 50px;
 
     /* flexbox */
-    flex-direction: column;
+    display: flex;
     flex-wrap: nowrap;
 }
 
 section#information .info-container {
-    flex: 1;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;  /* stack images horizontally, not vertically */
 }
 
 section#information .info-title {
+    /* flexbox */
+    flex: 1;
     text-align: center;
 }
 
