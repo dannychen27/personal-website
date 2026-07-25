@@ -19,7 +19,7 @@ section#information .info-title {
     text-align: center;
 }
 
-section#information .image-collection {
+section#information .image-container {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 0;
@@ -30,7 +30,7 @@ section#information .image-collection {
     align-items: center;
 }
 
-section#information .multi-image-container {
+section#information .image {
     width: 200px;
 
     margin-left: 0;
