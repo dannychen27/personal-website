@@ -41,7 +41,7 @@ section#intro .intro-title {
     font-size: 48px;
 
     /* flexbox */
-    flex: 3;
+    flex: 4;
 }
 
 section#intro .intro-description {
