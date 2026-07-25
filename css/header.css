@@ -1,0 +1,35 @@
+section#header {
+    background-color: navy;  /* TODO: use provided color instead */
+
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#header .logo-link-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#header .logo-link {
+    text-decoration: none;  /* remove underlines */
+    color: white;  /* must set color of links manually */
+}
+
+section#header .header-link-container {
+    list-style-type: none;  /* no bullets */
+
+    /* flexbox */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section#header .header-link {
+    display: inline;  /* make links appear adjacent to each other */
+    text-decoration: none;  /* remove underlines */
+    color: white;  /* must set color of links manually */
+
+    margin-left: 10px;
+    margin-right: 10px;
+}

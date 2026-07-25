@@ -1,0 +1,23 @@
+section#footer {
+    background-color: black;  /* TODO: use provided color instead */
+}
+
+section#footer .footer-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    padding-right: 0;
+
+    text-align: center;
+}
+
+section#footer .copyright-message {
+    font-size: 18px;
+    color: white;
+}
+
+section#footer a {
+    font-size: 18px;
+    color: skyblue;
+    text-decoration: underline;
+}
