@@ -52,6 +52,7 @@ section#information .info-image {
 
 section#information .info-caption {
     font-size: 14px;
+    margin-top: 10px;
 
     text-align: center;
 }
