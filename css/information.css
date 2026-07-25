@@ -51,5 +51,7 @@ section#information .info-image {
 }
 
 section#information .info-caption {
+    font-size: 14px;
+
     text-align: center;
 }
