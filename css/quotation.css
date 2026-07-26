@@ -22,13 +22,12 @@ section#quotation .quotation {
     font: 36px light italic;
     font-family: "Roboto Light", sans-serif;  /* must set font manually */
 
-    margin-bottom: 20px;
-
     /* flexbox */
     flex: 1;
 }
 
 section#quotation .quote-author {
+    margin-top: 20px;
     text-align: right;
     font: 24px bold;
     font-family: "Roboto", sans-serif;  /* must set font manually */
