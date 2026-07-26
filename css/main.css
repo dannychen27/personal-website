@@ -25,7 +25,7 @@ section#header, section#intro, section#information,
 section#quotation, section#footer {
     color: white;
 
-    /* leave space for two side columns */
+    /* leave space for two side columns in the margins */
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 0;

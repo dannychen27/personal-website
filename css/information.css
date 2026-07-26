@@ -10,6 +10,8 @@ section#information {
 }
 
 section#information .info-container {
+    width: 100%;
+
     /* flexbox */
     display: flex;
     flex-direction: column;  /* stack images horizontally, not vertically */
