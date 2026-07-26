@@ -19,7 +19,7 @@ section#quotation .quote-container {
 
 section#quotation .quotation {
     text-align: left;
-    font: 26px light italic;
+    font: 24px light italic;
     font-family: "Roboto", sans-serif;  /* must set font manually */
 
     /* flexbox */
