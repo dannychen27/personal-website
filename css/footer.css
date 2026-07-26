@@ -13,11 +13,13 @@ section#footer .footer-container {
 
 section#footer .copyright-message {
     font-size: 18px;
+    font-weight: 300;
     color: white;
 }
 
 section#footer a {
     font-size: 18px;
+    font-weight: 300;
     color: skyblue;
     text-decoration: underline;
 }

@@ -39,7 +39,7 @@ section#intro .intro-description-container {
 
 section#intro .intro-title {
     color: #F9FAF8;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 48px;
 
     /* flexbox */
@@ -48,6 +48,7 @@ section#intro .intro-title {
 
 section#intro .intro-description {
     font-size: 18px;
+    font-weight: 300;
     width: 75%;
     color: #E5E7EB;
 
@@ -87,6 +88,8 @@ section#intro .intro-image-container {
 }
 
 section#intro .image-box {
+    font-weight: 300;
+
     /* flexbox */
     display: flex;
     justify-content: center;
