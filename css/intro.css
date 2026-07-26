@@ -56,6 +56,7 @@ section#intro .intro-description {
 
 section#intro .intro-sign-up-button {
     font-family: "Roboto", sans-serif;  /* must set button font manually */
+    font-weight: bold;
     background-color: #3882F6;
     color: white;  /* must set button text color manually */
     width: 125px;
