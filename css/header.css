@@ -19,6 +19,8 @@ section#header .logo-link {
 }
 
 section#header .header-link-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style-type: none;  /* no bullets */
 
     /* flexbox */
