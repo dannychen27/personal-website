@@ -1,23 +1,30 @@
 section#call-to-action {
     background-color: white;
     color: black;
+
+    margin-left: 100px;
+    margin-right: 100px;
+
+    /* flexbox */
+    display: flex;
 }
 
 section#call-to-action .call-to-action-container {
     background-color: blue;
     color: white;
     border-radius: 8px;
+    width: 100%;
 
-    margin-left: 100px;
-    margin-right: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
 
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 25px;
 
     /* flexbox */
     display: flex;
+    flex: 1;
     justify-content: space-around;
 }
 
@@ -28,12 +35,14 @@ section#call-to-action .call-to-action-prompt {
 }
 
 section#call-to-action .call-to-action-message {
+    font-size: 20px;
+
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 section#call-to-action .call-to-action-task {
-
+    font-size: 16px;
 }
 
 section#call-to-action .call-to-action-button-container {
