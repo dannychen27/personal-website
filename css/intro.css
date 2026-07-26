@@ -1,5 +1,5 @@
 section#intro {
-    background-color: darkblue;  /* TODO: use provided color instead */
+    background-color: #1F2937;
 
     /* flexbox */
     align-items: center;
@@ -53,7 +53,7 @@ section#intro .intro-description {
 
 section#intro .intro-sign-up-button {
     font-family: "Roboto", sans-serif;  /* must set button font manually */
-    background-color: dodgerblue;  /* TODO: use provided color instead */
+    background-color: #3882F6;
     color: white;  /* must set button text color manually */
     width: 125px;
     border-radius: 4px;

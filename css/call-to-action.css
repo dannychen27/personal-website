@@ -10,7 +10,7 @@ section#call-to-action {
 }
 
 section#call-to-action .call-to-action-container {
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
     border-radius: 8px;
     width: 100%;
@@ -56,7 +56,7 @@ section#call-to-action .call-to-action-button {
     height: 70%;
     font-family: "Roboto", sans-serif;  /* must set font manually */
     font-size: 20px;
-    background-color: blue;  /* must set background color manually */
+    background-color: #3882F6;  /* must set background color manually */
     color: white;  /* must set font color manually */
     border-color: white;
     border-width: 2px;

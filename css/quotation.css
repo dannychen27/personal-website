@@ -1,5 +1,5 @@
 section#quotation {
-    background-color: purple;  /* TODO: use provided color instead */
+    background-color: #E5E7EB;
 
     /* flexbox */
     display: flex;

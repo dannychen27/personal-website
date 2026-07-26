@@ -1,5 +1,5 @@
 section#header {
-    background-color: navy;  /* TODO: use provided color instead */
+    background-color: #1F2937;
 
     /* flexbox */
     display: flex;
