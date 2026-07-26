@@ -48,6 +48,7 @@ section#intro .intro-title {
 
 section#intro .intro-description {
     font-size: 18px;
+    width: 75%;
     color: #E5E7EB;
 
     /* flexbox */
