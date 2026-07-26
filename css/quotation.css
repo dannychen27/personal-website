@@ -6,6 +6,8 @@ section#quotation {
 }
 
 section#quotation .quote-container {
+    color: #1F2937;
+
     margin-top: 150px;
     margin-bottom: 100px;
 
@@ -19,7 +21,10 @@ section#quotation .quote-container {
 
 section#quotation .quotation {
     text-align: left;
-    font: 24px light italic;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
     font-family: "Roboto", sans-serif;  /* must set font manually */
 
     /* flexbox */

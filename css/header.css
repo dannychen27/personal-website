@@ -13,8 +13,9 @@ section#header .logo-link-container {
 }
 
 section#header .logo-link {
+    font-size: 24px;
     text-decoration: none;  /* remove underlines */
-    color: white;  /* must set color of links manually */
+    color: #F9FAF8;  /* must set color of links manually */
 }
 
 section#header .header-link-container {

@@ -16,7 +16,9 @@ section#information .info-container {
 }
 
 section#information .info-title {
-    font-size: 30px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
     margin-bottom: 40px;
 
     /* flexbox */
@@ -46,12 +48,13 @@ section#information .info-image {
 
     border-width: 3px;
     border-style: solid;
-    border-color: steelblue;
+    border-color: #3882F6;
     border-radius: 8px;
 }
 
 section#information .info-caption {
     font-size: 14px;
+    color: #1F2937;
     margin-top: 10px;
 
     text-align: center;
