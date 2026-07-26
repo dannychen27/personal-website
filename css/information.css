@@ -32,7 +32,8 @@ section#information .image-container {
 
     /* flexbox */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 48px;
 }
 
 section#information .image {
