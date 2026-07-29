@@ -11,6 +11,9 @@ section#intro .intro-container {
     padding-left: 0;
     padding-right: 0;
 
+    margin-left: 10%;
+    margin-right: 10%;
+
     /* flexbox */
     display: flex;
     flex-direction: column;
