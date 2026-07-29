@@ -13,8 +13,8 @@ section#quotation .quote-container {
     margin-left: 10%;
     margin-right: 10%;
 
-    padding-left: 22.5%;
-    padding-right: 22.5%;
+    padding-left: 10%;
+    padding-right: 10%;
 
     /* flexbox */
     display: block;
